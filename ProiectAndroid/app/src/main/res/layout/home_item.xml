@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:orientation="vertical"
+android:padding="4dp">
+
+<TextView
+    android:id="@+id/hitem_heading"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="1dp"
+    android:textAppearance="?android:textAppearanceLarge"
+    android:clickable="true"
+    android:background="@color/colorPrimary"
+    android:textColor="@android:color/background_light"/>
+
+<TextView
+    android:id="@+id/hitem_desc"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="1dp"
+    android:background="@color/colorPrimary"
+    android:textColor="@android:color/background_light"/>
+
+
+
+</LinearLayout>
